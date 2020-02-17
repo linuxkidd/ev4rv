@@ -1,0 +1,15 @@
+{
+    "powerSettings": {
+        "shoreamps": 50,
+        "shorevolts": 240,
+        "breakermargin": 10,
+        "whpm": 345,
+        "emoncmsEnabled": 1
+    },
+    "syslog": [
+        {
+            "tstamp": 1581970145012,
+            "message": "Welcome to EV4RV! This is where events like the current monitor disconnecting are logged."
+        }
+    ]
+}
