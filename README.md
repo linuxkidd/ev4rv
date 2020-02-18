@@ -3,7 +3,7 @@ Charge your Electric Vehicle and power your RV from the same outlet without trip
 
 ## Table of Contents: ##
 
-1. [Introduction and Theory of Operations](https://github.com/linuxkidd/ev4rv/wiki)
+1. [Introduction and Theory of Operation](https://github.com/linuxkidd/ev4rv/wiki)
 1. [Parts List](https://github.com/linuxkidd/ev4rv/wiki/Parts-List)
 1. [Software Installation](https://github.com/linuxkidd/ev4rv/wiki/Software-Installation)
 1. [Home Energy Monitor Kit - Physical Installation](https://github.com/linuxkidd/ev4rv/wiki/Home-Energy-Monitor-Kit-Physical-Installation)
