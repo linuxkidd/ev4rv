@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cd ~pi/ev4rv
-git remote update &> /dev/null && git status | grep 'git pull' &> /dev/null
+/usr/bin/grep -c "$(/usr/bin/curl --silent https://raw.githubusercontent.com/linuxkidd/ev4rv/master/revision)" revision &> /dev/null
 echo -n $?

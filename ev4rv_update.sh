@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~pi/ev4rv
-git pull &> /dev/null
+/usr/bin/git pull &> /dev/null
 RETVAL=$?
 
 if [ $RETVAL -ne 0 ]; then
@@ -9,7 +9,6 @@ if [ $RETVAL -ne 0 ]; then
   exit 1
 fi
 
-unalias cp &> /dev/null
 /usr/bin/mosquitto_pub -t 'ev4rv/update' -m 'Upgrade complete.  Restarting, please wait...'
 (sleep 10 && /usr/bin/mosquitto_pub -t 'ev4rv/update' -m 'Update complete!') &
 sleep 5
