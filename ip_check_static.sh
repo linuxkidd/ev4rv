@@ -7,7 +7,7 @@ RETVAL=$?
 
 echo -n '{"status":"'
 if [ $RETVAL -ne 0 ]; then
-	echo -n DHCP enabled
+	echo -n DHCP Enabled
 else
 	echo -n Static IP
 fi
