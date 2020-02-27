@@ -9,11 +9,9 @@ if [ $RETVAL -ne 0 ]; then
 else
 	echo -n Static IP
 fi
-defgw=$(/sbin/route -n | awk '/^0.0.0.0/ { print $2 }')
 
 cat << EOF
 <table width='100%'>
 <tr><td><strong>URL:</strong></th><td align=right><a href="http://${myip}">http://${myip}</a></td></tr>
-<tr><td><strong>HotSpot URL:</strong></th><td align=right><a href="http://${defgw}">http://${defgw}</a></td></tr>
 </table>
 EOF
