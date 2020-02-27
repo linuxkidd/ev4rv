@@ -13,5 +13,5 @@ else
 fi
 
 cat << EOF
-", "payload":"<table width='100%'><tr><td><strong>URL:</strong></th><td align=right><a href='http://${myip}'>http://${myip}</a></td></tr></table>"}
+", "payload":"<table width='100%'><tr><td><br /><strong>EV4RV Link:</strong></th><td align=right><a href='http://${myip}'>http://${myip}</a></td></tr></table>"}
 EOF
