@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~pi/ev4rv
-git pull
+git pull &> /dev/null
 RETVAL=$?
 
 if [ $RETVAL -ne 0 ]; then
