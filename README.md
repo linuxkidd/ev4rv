@@ -11,3 +11,10 @@ Charge your Electric Vehicle and power your RV from the same outlet without trip
 1. [OpenEVSE - Initial Configuration](https://github.com/linuxkidd/ev4rv/wiki/OpenEVSE-Initial-Configuration)
 1. [Final Setup and Ongoing Maintenance](https://github.com/linuxkidd/ev4rv/wiki/Final-Setup-and-Ongoing-Maintenance)
 
+## Want videos?  We got videos! ###
+
+### EV4RV Introduction: ###
+[![EV4RV Introduction with Michael and David](https://img.youtube.com/vi/IPyFwH-hJbo/0.jpg)](https://www.youtube.com/watch?v=IPyFwH-hJbo)
+
+### EV4RV Software Install Walk through with David ###
+[![EV4RV Raspberry Pi Software Install with David](https://img.youtube.com/vi/3flAuTf0OTA/0.jpg)](https://www.youtube.com/watch?v=3flAuTf0OTA)
