@@ -4,7 +4,8 @@
         "shorevolts": 240,
         "breakermargin": 10,
         "whpm": 345,
-        "emoncmsEnabled": 1
+        "emoncmsEnabled": 1,
+        "dataTimeout": 30
     },
     "syslog": [
         {
